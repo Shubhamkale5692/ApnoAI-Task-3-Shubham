@@ -1,0 +1,1544 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PULSE FITNESS - India's Premier Gym & Luxury Fitness Studio. High-performance strength training, Olympic lifting, state-of-the-art biometrics, certified coaches, and premium recovery amenities. Build your strongest self today.">
+  <meta name="keywords" content="Pulse Fitness India, luxury gym Bengaluru, fitness studio India, personal training, strength training, bodybuilding, weight loss, gym membership INR, fitness club India">
+  <meta name="author" content="PULSE FITNESS">
+  <meta property="og:title" content="PULSE FITNESS | Build Your Strongest Self">
+  <meta property="og:description" content="Join India's premier standard in athletic performance and fitness. State-of-the-art facilities, certified trainers, and science-backed programs.">
+  <meta property="og:type" content="website">
+
+  <title>PULSE FITNESS | Build Your Strongest Self - Premium Gym &amp; Fitness Studio</title>
+
+  <!-- Google Fonts: Outfit (Bold, energetic display) & Plus Jakarta Sans (Sleek body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 Icons via CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Favicon Icon SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><path d='M10 55 L35 55 L45 20 L55 80 L65 45 L75 55 L90 55' fill='none' stroke='%2300ff88' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+</head>
+<body>
+  <!-- ==================== PREMIUM 3D PRELOADER ==================== -->
+  <div id="preloader" class="preloader" aria-label="Loading Pulse Fitness">
+    <div class="preloader-content">
+      <div class="preloader-3d-symbol">
+        <div class="preloader-ring"></div>
+        <div class="preloader-ring-inner"></div>
+        <div class="preloader-core">
+          <i class="fa-solid fa-bolt-lightning" aria-hidden="true"></i>
+        </div>
+      </div>
+      <div class="preloader-text">
+        <span class="preloader-brand">PULSE<span class="logo-accent">FITNESS</span></span>
+        <div class="preloader-bar">
+          <div class="preloader-progress" id="preloader-progress"></div>
+        </div>
+        <span class="preloader-status">INITIALIZING 3D PERFORMANCE SUITE...</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Interactive 3D Cursor (Desktop Only) -->
+  <div class="cursor-dot" id="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" id="cursor-ring" aria-hidden="true"></div>
+
+  <!-- Accessible Skip Navigation Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header / Navigation Bar -->
+  <header class="header" id="header">
+    <div class="header-container">
+      <!-- Brand Logo -->
+      <a href="#home" class="logo" aria-label="PULSE FITNESS Homepage">
+        <span class="logo-icon">
+          <i class="fa-solid fa-bolt-lightning" aria-hidden="true"></i>
+        </span>
+        <span class="logo-text">PULSE<span class="logo-accent">FITNESS</span></span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#programs" class="nav-link">Programs</a></li>
+          <li class="nav-item"><a href="#memberships" class="nav-link">Memberships</a></li>
+          <li class="nav-item"><a href="#trainers" class="nav-link">Trainers</a></li>
+          <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li class="nav-item"><a href="#testimonials" class="nav-link">Reviews</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Action Controls -->
+      <div class="header-actions">
+        <!-- Feature 4: Dark / Light Mode Toggle Button -->
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark and light color theme" title="Toggle color theme">
+          <span class="theme-icon-container">
+            <i class="fa-solid fa-sun icon-sun" aria-hidden="true"></i>
+            <i class="fa-solid fa-moon icon-moon" aria-hidden="true"></i>
+          </span>
+          <span class="theme-text sr-only">Toggle Theme</span>
+        </button>
+
+        <!-- CTA Header Button -->
+        <a href="#memberships" class="btn btn-primary btn-sm header-cta">Join Now</a>
+
+        <!-- Mobile Menu Toggle Button (Hamburger) -->
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Website Content -->
+  <main id="main-content">
+
+    <!-- ==================== SECTION A: HERO ==================== -->
+    <section class="hero-section" id="home" aria-label="Hero Section">
+      <div class="hero-overlay"></div>
+      <div class="hero-glow-orb hero-glow-1"></div>
+      <div class="hero-glow-orb hero-glow-2"></div>
+
+      <!-- 3D WebGL / Canvas Hero Scene -->
+      <canvas id="hero-3d-canvas" class="hero-3d-canvas" aria-hidden="true"></canvas>
+
+      <!-- 3D Neon Energy Rings Overlay -->
+      <div class="hero-energy-rings" aria-hidden="true">
+        <div class="energy-ring ring-1"></div>
+        <div class="energy-ring ring-2"></div>
+        <div class="energy-ring ring-3"></div>
+      </div>
+
+      <div class="container hero-container">
+        <div class="hero-content reveal">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span class="badge-text">THE PINNACLE OF HUMAN PERFORMANCE</span>
+          </div>
+
+          <h1 class="hero-title" data-3d-text="true">
+            BUILD YOUR <span class="highlight-text">STRONGEST</span> SELF.
+          </h1>
+
+          <p class="hero-description">
+            Experience an elite training atmosphere engineered for real physical transformation. Equipped with precision biometrics, world-class coaches, Olympic lifting arenas, and a high-energy community that refuses mediocrity.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#memberships" class="btn btn-primary btn-lg">
+              <span>Join Now</span>
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+            <a href="#contact" class="btn btn-outline btn-lg" id="hero-trial-btn">
+              <span>Book a Free Trial</span>
+              <i class="fa-solid fa-calendar-check" aria-hidden="true"></i>
+            </a>
+          </div>
+
+          <!-- Hero Workout Statistics -->
+          <div class="hero-stats" role="region" aria-label="Gym Key Statistics">
+            <div class="stat-card" data-tilt="true">
+              <div class="stat-ring-wrapper">
+                <svg class="stat-progress-ring" viewBox="0 0 76 76" aria-hidden="true">
+                  <circle class="ring-bg" cx="38" cy="38" r="32" />
+                  <circle class="ring-fill" cx="38" cy="38" r="32" data-percent="100" />
+                </svg>
+                <div class="stat-icon"><i class="fa-solid fa-maximize" aria-hidden="true"></i></div>
+              </div>
+              <div class="stat-info">
+                <span class="stat-number" data-target="10000">10,000+</span>
+                <span class="stat-label">Sq. Ft. Arena</span>
+              </div>
+            </div>
+
+            <div class="stat-card" data-tilt="true">
+              <div class="stat-ring-wrapper">
+                <svg class="stat-progress-ring" viewBox="0 0 76 76" aria-hidden="true">
+                  <circle class="ring-bg" cx="38" cy="38" r="32" />
+                  <circle class="ring-fill" cx="38" cy="38" r="32" data-percent="95" />
+                </svg>
+                <div class="stat-icon"><i class="fa-solid fa-certificate" aria-hidden="true"></i></div>
+              </div>
+              <div class="stat-info">
+                <span class="stat-number" data-target="10">10+</span>
+                <span class="stat-label">Elite Coaches</span>
+              </div>
+            </div>
+
+            <div class="stat-card" data-tilt="true">
+              <div class="stat-ring-wrapper">
+                <svg class="stat-progress-ring" viewBox="0 0 76 76" aria-hidden="true">
+                  <circle class="ring-bg" cx="38" cy="38" r="32" />
+                  <circle class="ring-fill" cx="38" cy="38" r="32" data-percent="98" />
+                </svg>
+                <div class="stat-icon"><i class="fa-solid fa-users" aria-hidden="true"></i></div>
+              </div>
+              <div class="stat-info">
+                <span class="stat-number" data-target="1000">1,000+</span>
+                <span class="stat-label">Active Members</span>
+              </div>
+            </div>
+
+            <div class="stat-card" data-tilt="true">
+              <div class="stat-ring-wrapper">
+                <svg class="stat-progress-ring" viewBox="0 0 76 76" aria-hidden="true">
+                  <circle class="ring-bg" cx="38" cy="38" r="32" />
+                  <circle class="ring-fill" cx="38" cy="38" r="32" data-percent="99" />
+                </svg>
+                <div class="stat-icon"><i class="fa-solid fa-trophy" aria-hidden="true"></i></div>
+              </div>
+              <div class="stat-info">
+                <span class="stat-number" data-target="99">99%</span>
+                <span class="stat-label">Goal Achievement</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll Indicator -->
+      <a href="#about" class="scroll-indicator" aria-label="Scroll down to About Us section">
+        <span class="mouse-icon">
+          <span class="wheel"></span>
+        </span>
+        <span class="scroll-text">SCROLL</span>
+      </a>
+    </section>
+
+    <!-- ==================== SECTION B: ABOUT US ==================== -->
+    <section class="section about-section" id="about" aria-label="About Pulse Fitness">
+      <div class="container">
+        <div class="about-grid">
+          <!-- About Images Collage with 3D Tilt & Floating Elements -->
+          <div class="about-visuals reveal" data-tilt="true">
+            <div class="image-wrapper main-img-wrapper" data-tilt="true">
+              <img 
+                src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=900&auto=format&fit=crop" 
+                alt="PULSE FITNESS modern training floor and state of the art equipment" 
+                class="about-img main-img"
+                loading="lazy"
+              >
+            </div>
+            <div class="image-wrapper accent-img-wrapper" data-tilt="true">
+              <img 
+                src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=700&auto=format&fit=crop" 
+                alt="Athlete executing precision barbell training at Pulse Fitness" 
+                class="about-img accent-img"
+                loading="lazy"
+              >
+            </div>
+            <!-- Floating Achievement Badge -->
+            <div class="floating-badge">
+              <div class="badge-icon"><i class="fa-solid fa-medal" aria-hidden="true"></i></div>
+              <div class="badge-content">
+                <span class="badge-title">EST. 2026</span>
+                <span class="badge-desc">Voted #1 Premium Studio</span>
+              </div>
+            </div>
+
+            <!-- Floating 3D Fitness Icons -->
+            <div class="about-floating-icon float-icon-1" aria-hidden="true" title="Maximum Strength">
+              <i class="fa-solid fa-dumbbell"></i>
+            </div>
+            <div class="about-floating-icon float-icon-2" aria-hidden="true" title="Metabolic Conditioning">
+              <i class="fa-solid fa-fire-flame-curved"></i>
+            </div>
+            <div class="about-floating-icon float-icon-3" aria-hidden="true" title="Vitality & Cardio">
+              <i class="fa-solid fa-heart-pulse"></i>
+            </div>
+          </div>
+
+          <!-- About Text Content -->
+          <div class="about-content reveal">
+            <div class="section-tag">ABOUT US</div>
+            <h2 class="section-title">WHERE MODERN SCIENCE MEETS <span class="highlight-text">UNSTOPPABLE IRON</span>.</h2>
+            <p class="section-lead">
+              PULSE FITNESS was founded on a simple conviction: ordinary workouts yield ordinary results. We engineered an uncompromising space where science, high-performance coaching, and pure drive converge.
+            </p>
+            <p class="about-text">
+              Whether you are an aspiring athlete aiming for podium strength, a professional craving boundless physical vitality, or looking to undergo a complete body transformation, our facility provides the exact blueprint, precision equipment, and relentless motivation you need.
+            </p>
+
+            <!-- Fitness Highlights Grid -->
+            <div class="highlights-grid">
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <i class="fa-solid fa-heart-pulse" aria-hidden="true"></i>
+                </div>
+                <div>
+                  <h3 class="highlight-heading">Biometric Performance Lab</h3>
+                  <p class="highlight-desc">Advanced metabolic testing, InBody 770 composition scans, and targeted heart-rate analytics.</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <i class="fa-solid fa-dumbbell" aria-hidden="true"></i>
+                </div>
+                <div>
+                  <h3 class="highlight-heading">Olympic Lifting &amp; Functional Turf</h3>
+                  <p class="highlight-desc">Competition-grade Eleiko barbells, bumper plates, power racks, and a 40-yard sprint turf.</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <i class="fa-solid fa-spa" aria-hidden="true"></i>
+                </div>
+                <div>
+                  <h3 class="highlight-heading">Cryotherapy &amp; Contrast Suite</h3>
+                  <p class="highlight-desc">Finnish dry cedar saunas, cold plunge tubs, and Normatec compression recovery boots.</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <i class="fa-solid fa-apple-whole" aria-hidden="true"></i>
+                </div>
+                <div>
+                  <h3 class="highlight-heading">Performance Fuel Lounge</h3>
+                  <p class="highlight-desc">On-site sports nutritionist consultations and handcrafted organic protein recovery blends.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-action">
+              <a href="#programs" class="btn btn-primary">
+                <span>View All Training Programs</span>
+                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION C: FITNESS PROGRAMS ==================== -->
+    <section class="section programs-section" id="programs" aria-label="Our Fitness Programs">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <div class="section-tag">SPECIALIZED DISCIPLINES</div>
+          <h2 class="section-title">PROGRAMS DESIGNED TO <span class="highlight-text">DOMINATE</span></h2>
+          <p class="section-subtitle">
+            Tailored training methodologies curated by master coaches to push past plateaus and build resilient, athletic bodies.
+          </p>
+        </div>
+
+        <div class="programs-grid">
+          <!-- Program 1: Strength Training -->
+          <article class="program-card card-3d reveal" data-program="strength" data-tilt="true">
+            <span class="card-glow-border" aria-hidden="true"></span>
+            <div class="program-image-box">
+              <img 
+                src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=700&auto=format&fit=crop" 
+                alt="Barbell Strength Training session at Pulse Fitness"
+                class="program-img"
+                loading="lazy"
+              >
+              <div class="program-badge">STRENGTH &amp; POWER</div>
+              <div class="program-icon-3d" aria-hidden="true"><i class="fa-solid fa-dumbbell"></i></div>
+            </div>
+            <div class="program-body">
+              <div class="program-meta">
+                <span><i class="fa-regular fa-clock" aria-hidden="true"></i> 60 Mins</span>
+                <span><i class="fa-solid fa-gauge-high" aria-hidden="true"></i> High Intensity</span>
+              </div>
+              <h3 class="program-title">Strength Training</h3>
+              <p class="program-desc">
+                Master compound barbell movements, increase neuromuscular recruitment, and construct an unshakeable strength foundation with progressive overload cycles.
+              </p>
+              <ul class="program-perks">
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Squat, bench &amp; deadlift mechanics</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Periodized 12-week strength blocks</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Grip &amp; core stability mastery</li>
+              </ul>
+              <button class="btn btn-outline btn-full program-modal-btn" data-program-name="Strength Training">
+                Program Details <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+              </button>
+            </div>
+          </article>
+
+          <!-- Program 2: Weight Loss -->
+          <article class="program-card card-3d reveal" data-program="weight-loss" data-tilt="true">
+            <span class="card-glow-border" aria-hidden="true"></span>
+            <div class="program-image-box">
+              <img 
+                src="https://images.unsplash.com/photo-1601422407692-ec4eeec1d9b3?q=80&w=700&auto=format&fit=crop" 
+                alt="High intensity metabolic conditioning and weight loss training"
+                class="program-img"
+                loading="lazy"
+              >
+              <div class="program-badge">METABOLIC SHRED</div>
+              <div class="program-icon-3d" aria-hidden="true"><i class="fa-solid fa-fire-flame-curved"></i></div>
+            </div>
+            <div class="program-body">
+              <div class="program-meta">
+                <span><i class="fa-regular fa-clock" aria-hidden="true"></i> 45 Mins</span>
+                <span><i class="fa-solid fa-fire" aria-hidden="true"></i> Max Calorie Burn</span>
+              </div>
+              <h3 class="program-title">Weight Loss</h3>
+              <p class="program-desc">
+                High-intensity metabolic conditioning routines synchronized with targeted nutritional guidance to accelerate adipose loss while retaining lean muscle.
+              </p>
+              <ul class="program-perks">
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> High EPOC post-workout calorie burn</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Dynamic kettlebell &amp; plyometrics</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Bi-weekly body composition scans</li>
+              </ul>
+              <button class="btn btn-outline btn-full program-modal-btn" data-program-name="Weight Loss">
+                Program Details <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+              </button>
+            </div>
+          </article>
+
+          <!-- Program 3: Muscle Building -->
+          <article class="program-card card-3d reveal" data-program="hypertrophy" data-tilt="true">
+            <span class="card-glow-border" aria-hidden="true"></span>
+            <div class="program-image-box">
+              <img 
+                src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=700&auto=format&fit=crop" 
+                alt="Muscle building hypertrophy and physique training"
+                class="program-img"
+                loading="lazy"
+              >
+              <div class="program-badge">HYPERTROPHY</div>
+              <div class="program-icon-3d" aria-hidden="true"><i class="fa-solid fa-hand-fist"></i></div>
+            </div>
+            <div class="program-body">
+              <div class="program-meta">
+                <span><i class="fa-regular fa-clock" aria-hidden="true"></i> 60 Mins</span>
+                <span><i class="fa-solid fa-bolt" aria-hidden="true"></i> Muscle Focus</span>
+              </div>
+              <h3 class="program-title">Muscle Building</h3>
+              <p class="program-desc">
+                Sculpt maximum muscle mass through optimized time-under-tension, volume periodization, mechanical tension, and strict isolation protocols.
+              </p>
+              <ul class="program-perks">
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Hypertrophy-specific volume splits</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Biomechanical joint-friendly form</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Targeted macronutrient guidance</li>
+              </ul>
+              <button class="btn btn-outline btn-full program-modal-btn" data-program-name="Muscle Building">
+                Program Details <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+              </button>
+            </div>
+          </article>
+
+          <!-- Program 4: Personal Training -->
+          <article class="program-card card-3d reveal" data-program="personal-training" data-tilt="true">
+            <span class="card-glow-border" aria-hidden="true"></span>
+            <div class="program-image-box">
+              <img 
+                src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=700&auto=format&fit=crop" 
+                alt="One-on-one personal coaching at Pulse Fitness"
+                class="program-img"
+                loading="lazy"
+              >
+              <div class="program-badge">1-ON-1 COACHING</div>
+              <div class="program-icon-3d" aria-hidden="true"><i class="fa-solid fa-user-ninja"></i></div>
+            </div>
+            <div class="program-body">
+              <div class="program-meta">
+                <span><i class="fa-regular fa-clock" aria-hidden="true"></i> 60 Mins</span>
+                <span><i class="fa-solid fa-star" aria-hidden="true"></i> Bespoke Plan</span>
+              </div>
+              <h3 class="program-title">Personal Training</h3>
+              <p class="program-desc">
+                Direct mentorship from our world-class certified trainers. Get an entirely personalized program matched to your biomechanics, schedule, and goals.
+              </p>
+              <ul class="program-perks">
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Dedicated master trainer assigned</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Continuous movement screening</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> 24/7 coach messaging &amp; support</li>
+              </ul>
+              <button class="btn btn-outline btn-full program-modal-btn" data-program-name="Personal Training">
+                Program Details <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+              </button>
+            </div>
+          </article>
+
+          <!-- Program 5: Cardio Training -->
+          <article class="program-card card-3d reveal" data-program="cardio" data-tilt="true">
+            <span class="card-glow-border" aria-hidden="true"></span>
+            <div class="program-image-box">
+              <img 
+                src="https://images.unsplash.com/photo-1434596922112-19c563067271?q=80&w=700&auto=format&fit=crop" 
+                alt="High performance endurance and cardio conditioning"
+                class="program-img"
+                loading="lazy"
+              >
+              <div class="program-badge">ENDURANCE &amp; STAMINA</div>
+              <div class="program-icon-3d" aria-hidden="true"><i class="fa-solid fa-heart-pulse"></i></div>
+            </div>
+            <div class="program-body">
+              <div class="program-meta">
+                <span><i class="fa-regular fa-clock" aria-hidden="true"></i> 50 Mins</span>
+                <span><i class="fa-solid fa-heart" aria-hidden="true"></i> Aerobic Capacity</span>
+              </div>
+              <h3 class="program-title">Cardio Training</h3>
+              <p class="program-desc">
+                Elevate your VO2 max, cardiac efficiency, and stamina through smart interval training using curved treadmills, Concept2 rowers, SkiErgs, and Assault bikes.
+              </p>
+              <ul class="program-perks">
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Zone-2 and Zone-5 cardiovascular splits</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Low-impact high-output conditioning</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Real-time heart monitor telemetry</li>
+              </ul>
+              <button class="btn btn-outline btn-full program-modal-btn" data-program-name="Cardio Training">
+                Program Details <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+              </button>
+            </div>
+          </article>
+
+          <!-- Program 6: Yoga & Flexibility -->
+          <article class="program-card card-3d reveal" data-program="yoga" data-tilt="true">
+            <span class="card-glow-border" aria-hidden="true"></span>
+            <div class="program-image-box">
+              <img 
+                src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?q=80&w=700&auto=format&fit=crop" 
+                alt="Yoga and mobility recovery session at Pulse Fitness"
+                class="program-img"
+                loading="lazy"
+              >
+              <div class="program-badge">MOBILITY &amp; RECOVERY</div>
+              <div class="program-icon-3d" aria-hidden="true"><i class="fa-solid fa-spa"></i></div>
+            </div>
+            <div class="program-body">
+              <div class="program-meta">
+                <span><i class="fa-regular fa-clock" aria-hidden="true"></i> 55 Mins</span>
+                <span><i class="fa-solid fa-leaf" aria-hidden="true"></i> Restoration</span>
+              </div>
+              <h3 class="program-title">Yoga &amp; Flexibility</h3>
+              <p class="program-desc">
+                Restore joint articulation, relieve chronic myofascial tension, enhance posture, and cultivate mental resilience through power vinyasa and athletic yin yoga.
+              </p>
+              <ul class="program-perks">
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Functional joint decompression</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Injury prevention &amp; rehab flows</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Breathwork &amp; autonomic downregulation</li>
+              </ul>
+              <button class="btn btn-outline btn-full program-modal-btn" data-program-name="Yoga &amp; Flexibility">
+                Program Details <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION D: MEMBERSHIP PLANS ==================== -->
+    <section class="section memberships-section" id="memberships" aria-label="Membership Pricing Plans">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <div class="section-tag">TRANSPARENT INVESTMENT</div>
+          <h2 class="section-title">CHOOSE YOUR <span class="highlight-text">LEVEL OF ACCESS</span></h2>
+          <p class="section-subtitle">
+            No hidden contracts. No surprise cancellation fees. Premium facility privileges engineered for dedicated athletes.
+          </p>
+
+          <!-- Billing Period Switch -->
+          <div class="billing-toggle-wrapper">
+            <span class="billing-label monthly active">Monthly</span>
+            <button class="billing-switch" id="billing-switch" aria-label="Toggle between monthly and annual billing" role="switch" aria-checked="false">
+              <span class="switch-handle"></span>
+            </button>
+            <span class="billing-label annual">
+              Annual Billing
+              <span class="save-badge">SAVE 20%</span>
+            </span>
+          </div>
+        </div>
+
+        <div class="pricing-grid">
+          <!-- Tier 1: Basic Plan -->
+          <div class="pricing-card card-3d reveal" data-plan="basic" data-tilt="true">
+            <span class="card-glow-border" aria-hidden="true"></span>
+            <div class="pricing-header">
+              <h3 class="plan-name">Basic</h3>
+              <p class="plan-tagline">Essential access to fuel your routine</p>
+              <div class="plan-price">
+                <span class="currency">₹</span>
+                <span class="amount" data-monthly="999" data-annual="799">999</span>
+                <span class="period">/month</span>
+              </div>
+              <span class="billed-note">Billed monthly • Sample rate</span>
+            </div>
+
+            <div class="pricing-features">
+              <ul>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Full gym floor access (5am - 11pm)</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Standard locker room &amp; shower access</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Free initial fitness &amp; goal assessment</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Access to Pulse Fitness mobile app</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> 1 Complimentary guest pass / month</li>
+                <li class="disabled"><i class="fa-solid fa-xmark" aria-hidden="true"></i> Group studio fitness classes</li>
+                <li class="disabled"><i class="fa-solid fa-xmark" aria-hidden="true"></i> Sauna &amp; cold plunge suites</li>
+                <li class="disabled"><i class="fa-solid fa-xmark" aria-hidden="true"></i> Dedicated personal training</li>
+              </ul>
+            </div>
+
+            <div class="pricing-action">
+              <button class="btn btn-outline btn-full plan-select-btn" data-plan-title="Basic Membership (₹999/mo)">
+                Join Basic
+              </button>
+            </div>
+          </div>
+
+          <!-- Tier 2: Premium Plan (HIGHLIGHTED & RECOMMENDED) -->
+          <div class="pricing-card card-3d featured reveal" data-plan="premium" data-tilt="true">
+            <span class="card-glow-border" aria-hidden="true"></span>
+            <div class="popular-ribbon">
+              <i class="fa-solid fa-crown" aria-hidden="true"></i> MOST POPULAR
+            </div>
+            <div class="pricing-header">
+              <h3 class="plan-name">Premium</h3>
+              <p class="plan-tagline">The complete athletic transformation package</p>
+              <div class="plan-price">
+                <span class="currency">₹</span>
+                <span class="amount" data-monthly="1,499" data-annual="1,199">1,499</span>
+                <span class="period">/month</span>
+              </div>
+              <span class="billed-note">Billed monthly • Most selected</span>
+            </div>
+
+            <div class="pricing-features">
+              <ul>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> <strong>24/7 Unlimited Arena Access</strong></li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> All group fitness &amp; HIIT classes included</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Infrared sauna &amp; cold plunge suites</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> 2 Monthly personal training sessions</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Bi-monthly InBody 770 body analysis</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> 5 Complimentary guest passes / month</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> 10% Discount at the Nutrition Lounge</li>
+                <li class="disabled"><i class="fa-solid fa-xmark" aria-hidden="true"></i> Private VIP locker &amp; laundry</li>
+              </ul>
+            </div>
+
+            <div class="pricing-action">
+              <button class="btn btn-primary btn-full plan-select-btn" data-plan-title="Premium Membership (₹1,499/mo)">
+                Join Premium Now
+              </button>
+            </div>
+          </div>
+
+          <!-- Tier 3: Elite Plan -->
+          <div class="pricing-card card-3d reveal" data-plan="elite" data-tilt="true">
+            <span class="card-glow-border" aria-hidden="true"></span>
+            <div class="pricing-header">
+              <h3 class="plan-name">Elite</h3>
+              <p class="plan-tagline">VIP luxury, bespoke training &amp; recovery</p>
+              <div class="plan-price">
+                <span class="currency">₹</span>
+                <span class="amount" data-monthly="2,499" data-annual="1,999">2,499</span>
+                <span class="period">/month</span>
+              </div>
+              <span class="billed-note">Billed monthly • Complete VIP</span>
+            </div>
+
+            <div class="pricing-features">
+              <ul>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> <strong>All Premium privileges included</strong></li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> 4 Monthly 1-on-1 personal training hours</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Private reserved locker with daily laundry</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Weekly Normatec compression &amp; cryo</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Monthly personalized nutrition consultation</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Unlimited guest passes</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> 20% Discount across all apparel &amp; fuel bar</li>
+                <li><i class="fa-solid fa-check" aria-hidden="true"></i> Dedicated concierge support</li>
+              </ul>
+            </div>
+
+            <div class="pricing-action">
+              <button class="btn btn-outline btn-full plan-select-btn" data-plan-title="Elite Membership (₹2,499/mo)">
+                Join Elite VIP
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-footer-note text-center">
+          <p><i class="fa-solid fa-shield-halved" aria-hidden="true"></i> All plans include a 14-day zero-risk satisfaction guarantee. Corporate discounts available upon request.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION E: OUR TRAINERS ==================== -->
+    <section class="section trainers-section" id="trainers" aria-label="Our Certified Trainers">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <div class="section-tag">ELITE COACHING STAFF (DEMO PROFILES)</div>
+          <h2 class="section-title">TRAIN WITH <span class="highlight-text">CHAMPIONSHIP MENTORS</span></h2>
+          <p class="section-subtitle">
+            Illustrative sample coach profiles demonstrating our master biomechanics, athletic strength standards, and personalized coaching methodology.
+          </p>
+        </div>
+
+        <div class="trainers-grid">
+          <!-- Trainer 1 -->
+          <article class="trainer-card card-3d reveal" data-tilt="true">
+            <div class="trainer-image-box">
+              <img 
+                src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?q=80&w=700&auto=format&fit=crop" 
+                alt="Marcus Vance Thorne - Head of Strength and Olympic Lifting"
+                class="trainer-img"
+                loading="lazy"
+              >
+              <div class="trainer-socials">
+                <a href="#trainers" aria-label="Marcus Thorne on Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                <a href="#trainers" aria-label="Marcus Thorne on LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+                <a href="#trainers" aria-label="Marcus Thorne on Twitter"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+              </div>
+            </div>
+            <div class="trainer-info">
+              <div class="trainer-badge">HEAD COACH • DEMO PROFILE</div>
+              <h3 class="trainer-name">Marcus "Vance" Thorne</h3>
+              <p class="trainer-role">Olympic Lifting &amp; Strength Specialist</p>
+              <p class="trainer-bio">
+                Former competitive powerlifter with over 12 years of coaching collegiate and professional athletes. Specializes in maximal strength development and kinetic mechanics.
+              </p>
+              <div class="trainer-stats">
+                <div class="t-stat">
+                  <span class="t-num">12+</span>
+                  <span class="t-lbl">Years Exp</span>
+                </div>
+                <div class="t-stat">
+                  <span class="t-num">CSCS</span>
+                  <span class="t-lbl">Certified</span>
+                </div>
+                <div class="t-stat">
+                  <span class="t-num">350+</span>
+                  <span class="t-lbl">Clients</span>
+                </div>
+              </div>
+              <button class="btn btn-outline btn-full btn-sm book-trainer-btn" data-trainer="Marcus Vance Thorne">
+                Book Consultation
+              </button>
+            </div>
+          </article>
+
+          <!-- Trainer 2 -->
+          <article class="trainer-card card-3d reveal" data-tilt="true">
+            <div class="trainer-image-box">
+              <img 
+                src="https://images.unsplash.com/photo-1594381898411-846e7d193883?q=80&w=700&auto=format&fit=crop" 
+                alt="Elena Rostova - Biomechanics and Physique Sculpting Coach"
+                class="trainer-img"
+                loading="lazy"
+              >
+              <div class="trainer-socials">
+                <a href="#trainers" aria-label="Elena Rostova on Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                <a href="#trainers" aria-label="Elena Rostova on LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+                <a href="#trainers" aria-label="Elena Rostova on YouTube"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
+              </div>
+            </div>
+            <div class="trainer-info">
+              <div class="trainer-badge">HYPERTROPHY LEAD • DEMO PROFILE</div>
+              <h3 class="trainer-name">Elena Rostova</h3>
+              <p class="trainer-role">Biomechanics &amp; Physique Architect</p>
+              <p class="trainer-bio">
+                Holds a Master's degree in Exercise Physiology. Has prepared over 80 natural physique competitors and helped hundreds of executives sculpt athletic physiques.
+              </p>
+              <div class="trainer-stats">
+                <div class="t-stat">
+                  <span class="t-num">9+</span>
+                  <span class="t-lbl">Years Exp</span>
+                </div>
+                <div class="t-stat">
+                  <span class="t-num">M.S.</span>
+                  <span class="t-lbl">Physiology</span>
+                </div>
+                <div class="t-stat">
+                  <span class="t-num">280+</span>
+                  <span class="t-lbl">Clients</span>
+                </div>
+              </div>
+              <button class="btn btn-outline btn-full btn-sm book-trainer-btn" data-trainer="Elena Rostova">
+                Book Consultation
+              </button>
+            </div>
+          </article>
+
+          <!-- Trainer 3 -->
+          <article class="trainer-card card-3d reveal" data-tilt="true">
+            <div class="trainer-image-box">
+              <img 
+                src="https://images.unsplash.com/photo-1583467875263-d50dec37a88c?q=80&w=700&auto=format&fit=crop" 
+                alt="David Chen - Metabolic Conditioning and Boxing Coach"
+                class="trainer-img"
+                loading="lazy"
+              >
+              <div class="trainer-socials">
+                <a href="#trainers" aria-label="David Chen on Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                <a href="#trainers" aria-label="David Chen on LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+                <a href="#trainers" aria-label="David Chen on Twitter"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+              </div>
+            </div>
+            <div class="trainer-info">
+              <div class="trainer-badge">CONDITIONING LEAD • DEMO PROFILE</div>
+              <h3 class="trainer-name">David Chen</h3>
+              <p class="trainer-role">Metabolic HIIT &amp; Combat Conditioning</p>
+              <p class="trainer-bio">
+                Golden Gloves champion and elite endurance coach. Expert in high-calorie metabolic conditioning, athletic agility, and stamina acceleration.
+              </p>
+              <div class="trainer-stats">
+                <div class="t-stat">
+                  <span class="t-num">8+</span>
+                  <span class="t-lbl">Years Exp</span>
+                </div>
+                <div class="t-stat">
+                  <span class="t-num">NASM</span>
+                  <span class="t-lbl">Master</span>
+                </div>
+                <div class="t-stat">
+                  <span class="t-num">400+</span>
+                  <span class="t-lbl">Clients</span>
+                </div>
+              </div>
+              <button class="btn btn-outline btn-full btn-sm book-trainer-btn" data-trainer="David Chen">
+                Book Consultation
+              </button>
+            </div>
+          </article>
+
+          <!-- Trainer 4 -->
+          <article class="trainer-card card-3d reveal" data-tilt="true">
+            <div class="trainer-image-box">
+              <img 
+                src="https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=700&auto=format&fit=crop" 
+                alt="Sarah Jenkins - Mobility, Yoga and Rehabilitation Coach"
+                class="trainer-img"
+                loading="lazy"
+              >
+              <div class="trainer-socials">
+                <a href="#trainers" aria-label="Sarah Jenkins on Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                <a href="#trainers" aria-label="Sarah Jenkins on LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+                <a href="#trainers" aria-label="Sarah Jenkins on YouTube"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
+              </div>
+            </div>
+            <div class="trainer-info">
+              <div class="trainer-badge">RECOVERY LEAD • DEMO PROFILE</div>
+              <h3 class="trainer-name">Sarah Jenkins</h3>
+              <p class="trainer-role">Mobility, Yoga &amp; Injury Prevention</p>
+              <p class="trainer-bio">
+                Licensed athletic trainer and 500-hour master yogi. Helps high-mileage athletes unlock joint freedom, balance posture, and accelerate neural recovery.
+              </p>
+              <div class="trainer-stats">
+                <div class="t-stat">
+                  <span class="t-num">10+</span>
+                  <span class="t-lbl">Years Exp</span>
+                </div>
+                <div class="t-stat">
+                  <span class="t-num">E-RYT</span>
+                  <span class="t-lbl">500 Master</span>
+                </div>
+                <div class="t-stat">
+                  <span class="t-num">310+</span>
+                  <span class="t-lbl">Clients</span>
+                </div>
+              </div>
+              <button class="btn btn-outline btn-full btn-sm book-trainer-btn" data-trainer="Sarah Jenkins">
+                Book Consultation
+              </button>
+            </div>
+          </article>
+        </div>
+
+        <div class="trainers-disclaimer text-center">
+          <p><i class="fa-solid fa-circle-info" aria-hidden="true"></i> <strong>Note:</strong> Trainer profiles and credentials depicted are demonstrative sample profiles for client review. Certified personal coaches and customized schedules are assigned during in-studio orientation.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION F: PHOTO GALLERY (FEATURE 2) ==================== -->
+    <section class="section gallery-section" id="gallery" aria-label="Pulse Fitness Photo Gallery">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <div class="section-tag">FACILITY SHOWCASE</div>
+          <h2 class="section-title">IMMERSIVE <span class="highlight-text">VISUAL TOUR</span></h2>
+          <p class="section-subtitle">
+            Explore our state-of-the-art training zones, custom equipment, vibrant community, and championship environment.
+          </p>
+
+          <!-- Gallery Category Filter Tabs -->
+          <div class="gallery-filters" role="tablist" aria-label="Gallery category filters">
+            <button class="gallery-filter-btn active" data-filter="all" role="tab" aria-selected="true">All</button>
+            <button class="gallery-filter-btn" data-filter="strength" role="tab" aria-selected="false">Strength</button>
+            <button class="gallery-filter-btn" data-filter="cardio" role="tab" aria-selected="false">Cardio</button>
+            <button class="gallery-filter-btn" data-filter="yoga" role="tab" aria-selected="false">Yoga</button>
+            <button class="gallery-filter-btn" data-filter="equipment" role="tab" aria-selected="false">Equipment</button>
+          </div>
+        </div>
+
+        <!-- Responsive Gallery Grid -->
+        <div class="gallery-grid" id="gallery-grid">
+          <!-- Photo 1: Gym Interior & Turf -->
+          <div class="gallery-item card-3d reveal" data-category="equipment" data-index="0" tabindex="0" role="button" aria-label="View Main Training Arena photo" data-tilt="true">
+            <div class="gallery-thumb">
+              <img 
+                src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1000&auto=format&fit=crop" 
+                alt="PULSE FITNESS main training floor showing dumbbell racks and open arena" 
+                class="gallery-img"
+                loading="lazy"
+              >
+              <div class="gallery-overlay">
+                <span class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus" aria-hidden="true"></i></span>
+                <span class="gallery-caption-title">Main Training Arena</span>
+                <span class="gallery-caption-cat">Facility &amp; Equipment</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Photo 2: Cardio & Metabolic Battle Ropes -->
+          <div class="gallery-item card-3d reveal" data-category="cardio" data-index="1" tabindex="0" role="button" aria-label="View Metabolic Battle Ropes photo" data-tilt="true">
+            <div class="gallery-thumb">
+              <img 
+                src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=1000&auto=format&fit=crop" 
+                alt="High energy metabolic cardio conditioning workout session with battle ropes" 
+                class="gallery-img"
+                loading="lazy"
+              >
+              <div class="gallery-overlay">
+                <span class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus" aria-hidden="true"></i></span>
+                <span class="gallery-caption-title">Metabolic Battle Ropes</span>
+                <span class="gallery-caption-cat">Cardio &amp; HIIT</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Photo 3: Calibrated Dumbbells & Barbells -->
+          <div class="gallery-item card-3d reveal" data-category="strength equipment" data-index="2" tabindex="0" role="button" aria-label="View Calibrated Dumbbells photo" data-tilt="true">
+            <div class="gallery-thumb">
+              <img 
+                src="https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?q=80&w=1000&auto=format&fit=crop" 
+                alt="Precision calibrated urethane dumbbells and Olympic weight racks" 
+                class="gallery-img"
+                loading="lazy"
+              >
+              <div class="gallery-overlay">
+                <span class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus" aria-hidden="true"></i></span>
+                <span class="gallery-caption-title">Calibrated Dumbbells</span>
+                <span class="gallery-caption-cat">Strength &amp; Equipment</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Photo 4: 1-on-1 Strength Personal Coaching -->
+          <div class="gallery-item card-3d reveal" data-category="strength" data-index="3" tabindex="0" role="button" aria-label="View 1-on-1 Biomechanic Coaching photo" data-tilt="true">
+            <div class="gallery-thumb">
+              <img 
+                src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=1000&auto=format&fit=crop" 
+                alt="Certified coach instructing client on compound strength lift form" 
+                class="gallery-img"
+                loading="lazy"
+              >
+              <div class="gallery-overlay">
+                <span class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus" aria-hidden="true"></i></span>
+                <span class="gallery-caption-title">1-on-1 Biomechanic Coaching</span>
+                <span class="gallery-caption-cat">Strength Training</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Photo 5: Group Cardio HIIT Training -->
+          <div class="gallery-item card-3d reveal" data-category="cardio" data-index="4" tabindex="0" role="button" aria-label="View Pulse HIIT Group Clan photo" data-tilt="true">
+            <div class="gallery-thumb">
+              <img 
+                src="https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=1000&auto=format&fit=crop" 
+                alt="High octane group athletic cardio training session in full swing" 
+                class="gallery-img"
+                loading="lazy"
+              >
+              <div class="gallery-overlay">
+                <span class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus" aria-hidden="true"></i></span>
+                <span class="gallery-caption-title">Pulse HIIT Group Clan</span>
+                <span class="gallery-caption-cat">Cardio Training</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Photo 6: Heavy Deadlift Arena -->
+          <div class="gallery-item card-3d reveal" data-category="strength" data-index="5" tabindex="0" role="button" aria-label="View Heavy Deadlift Platform photo" data-tilt="true">
+            <div class="gallery-thumb">
+              <img 
+                src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?q=80&w=1000&auto=format&fit=crop" 
+                alt="Powerlifter executing competition deadlift with chalk on platform" 
+                class="gallery-img"
+                loading="lazy"
+              >
+              <div class="gallery-overlay">
+                <span class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus" aria-hidden="true"></i></span>
+                <span class="gallery-caption-title">Heavy Deadlift Platform</span>
+                <span class="gallery-caption-cat">Strength Training</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Photo 7: Mindful Yoga Flow -->
+          <div class="gallery-item card-3d reveal" data-category="yoga" data-index="6" tabindex="0" role="button" aria-label="View Athletic Vinyasa Flow photo" data-tilt="true">
+            <div class="gallery-thumb">
+              <img 
+                src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?q=80&w=1000&auto=format&fit=crop" 
+                alt="Athlete practicing mobility and yoga flow in natural light studio" 
+                class="gallery-img"
+                loading="lazy"
+              >
+              <div class="gallery-overlay">
+                <span class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus" aria-hidden="true"></i></span>
+                <span class="gallery-caption-title">Athletic Vinyasa Flow</span>
+                <span class="gallery-caption-cat">Yoga &amp; Mobility</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Photo 8: Mobility & Recovery Deck -->
+          <div class="gallery-item card-3d reveal" data-category="yoga" data-index="7" tabindex="0" role="button" aria-label="View Mobility & Recovery Deck photo" data-tilt="true">
+            <div class="gallery-thumb">
+              <img 
+                src="https://images.unsplash.com/photo-1552196563-5524e3a8b446?q=80&w=1000&auto=format&fit=crop" 
+                alt="Mobility, yoga, and athletic stretching floor at Pulse Fitness" 
+                class="gallery-img"
+                loading="lazy"
+              >
+              <div class="gallery-overlay">
+                <span class="gallery-zoom-icon"><i class="fa-solid fa-magnifying-glass-plus" aria-hidden="true"></i></span>
+                <span class="gallery-caption-title">Mobility &amp; Recovery Deck</span>
+                <span class="gallery-caption-cat">Yoga &amp; Flexibility</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION G: TESTIMONIALS ==================== -->
+    <section class="section testimonials-section" id="testimonials" aria-label="Customer Reviews">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <div class="section-tag">PROVEN TRANSFORMATIONS</div>
+          <h2 class="section-title">WHAT OUR <span class="highlight-text">ATHLETES SAY</span></h2>
+          <p class="section-subtitle">
+            Real stories from everyday professionals, competitive athletes, and members who transformed their bodies and minds at PULSE FITNESS.
+          </p>
+        </div>
+
+        <!-- Functional Testimonial Slider -->
+        <div class="testimonials-slider-container reveal" id="testimonials-slider">
+          <div class="testimonials-track" id="testimonials-track">
+            <!-- Review 1 -->
+            <div class="testimonial-slide">
+              <div class="testimonial-card" data-tilt="true">
+                <div class="testimonial-quote-icon">
+                  <i class="fa-solid fa-quote-right" aria-hidden="true"></i>
+                </div>
+                <div class="stars-rating" aria-label="5 out of 5 stars">
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                </div>
+                <blockquote class="testimonial-text">
+                  "PULSE FITNESS completely rewired how I look at training. The coaches don’t just give you exercises; they assess your posture, track your biometrics, and build real strength. In 7 months, I dropped 28 lbs of body fat and hit a 315-lb deadlift. The energy in this facility is unlike anything else."
+                </blockquote>
+                <div class="testimonial-author">
+                  <img 
+                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop" 
+                    alt="Photo of Jason Miller, Pulse Fitness member"
+                    class="author-avatar"
+                    loading="lazy"
+                  >
+                  <div class="author-details">
+                    <h4 class="author-name">Jason Miller</h4>
+                    <span class="author-achievement">Lost 28 lbs • Premium Member</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 2 -->
+            <div class="testimonial-slide">
+              <div class="testimonial-card" data-tilt="true">
+                <div class="testimonial-quote-icon">
+                  <i class="fa-solid fa-quote-right" aria-hidden="true"></i>
+                </div>
+                <div class="stars-rating" aria-label="5 out of 5 stars">
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                </div>
+                <blockquote class="testimonial-text">
+                  "As a corporate executive working 60-hour weeks, I needed high efficiency. The Personal Training program led by Elena transformed my energy levels and chronic back pain. The cold plunge and sauna after a tough lifting session make me feel unstoppable. Worth every penny of the Elite membership!"
+                </blockquote>
+                <div class="testimonial-author">
+                  <img 
+                    src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop" 
+                    alt="Photo of Priya Patel, Elite VIP member"
+                    class="author-avatar"
+                    loading="lazy"
+                  >
+                  <div class="author-details">
+                    <h4 class="author-name">Priya Patel</h4>
+                    <span class="author-achievement">VP of Technology • Elite Member</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 3 -->
+            <div class="testimonial-slide">
+              <div class="testimonial-card" data-tilt="true">
+                <div class="testimonial-quote-icon">
+                  <i class="fa-solid fa-quote-right" aria-hidden="true"></i>
+                </div>
+                <div class="stars-rating" aria-label="5 out of 5 stars">
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                </div>
+                <blockquote class="testimonial-text">
+                  "The equipment quality is simply unmatched. Eleiko bars, competition benches, calibrated plates, and an incredible turf area. Whether you are an Olympic lifter or someone doing your first squat, the community is deeply welcoming and fiercely motivating. You won't find a better gym in the country."
+                </blockquote>
+                <div class="testimonial-author">
+                  <img 
+                    src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop" 
+                    alt="Photo of Carlos Mendez, Competitive Athlete"
+                    class="author-avatar"
+                    loading="lazy"
+                  >
+                  <div class="author-details">
+                    <h4 class="author-name">Carlos Mendez</h4>
+                    <span class="author-achievement">Powerlifter &amp; Triathlete</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 4 -->
+            <div class="testimonial-slide">
+              <div class="testimonial-card" data-tilt="true">
+                <div class="testimonial-quote-icon">
+                  <i class="fa-solid fa-quote-right" aria-hidden="true"></i>
+                </div>
+                <div class="stars-rating" aria-label="5 out of 5 stars">
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                  <i class="fa-solid fa-star" aria-hidden="true"></i>
+                </div>
+                <blockquote class="testimonial-text">
+                  "I was always intimidated by traditional gym environments. PULSE FITNESS is different. From day one, Coach Sarah showed me proper mobility routines and built my confidence step-by-step. Now, I look forward to 6:00 AM workouts every single day. Truly life changing!"
+                </blockquote>
+                <div class="testimonial-author">
+                  <img 
+                    src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=200&auto=format&fit=crop" 
+                    alt="Photo of Samantha Vance, Pulse Fitness member"
+                    class="author-avatar"
+                    loading="lazy"
+                  >
+                  <div class="author-details">
+                    <h4 class="author-name">Samantha Vance</h4>
+                    <span class="author-achievement">Design Director • 2 Years Member</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slider Controls -->
+          <div class="slider-controls">
+            <button class="slider-btn prev-btn" id="slider-prev" aria-label="Previous testimonial slide">
+              <i class="fa-solid fa-arrow-left" aria-hidden="true"></i>
+            </button>
+            <div class="slider-dots" id="slider-dots" role="tablist" aria-label="Testimonial slides pagination">
+              <!-- Dots generated dynamically via JavaScript -->
+            </div>
+            <button class="slider-btn next-btn" id="slider-next" aria-label="Next testimonial slide">
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION H: CONTACT US ==================== -->
+    <section class="section contact-section" id="contact" aria-label="Contact Pulse Fitness">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <div class="section-tag">GET IN TOUCH</div>
+          <h2 class="section-title">START YOUR <span class="highlight-text">JOURNEY TODAY</span></h2>
+          <p class="section-subtitle">
+            Visit our training grounds, book a private tour, or speak directly with an athletic advisor. We are ready to help you reach peak conditioning.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Information Column (Editable placeholders clearly noted) -->
+          <div class="contact-info-panel reveal">
+            <div class="info-card" data-tilt="true">
+              <div class="info-header">
+                <span class="info-badge">STUDIO HEADQUARTERS</span>
+                <h3 class="info-title">PULSE FITNESS ARENA</h3>
+                <p class="info-sub">Located in the heart of the metropolitan fitness district.</p>
+              </div>
+
+              <div class="info-items">
+                <!-- Editable Gym Address -->
+                <div class="info-item">
+                  <div class="info-icon"><i class="fa-solid fa-location-dot" aria-hidden="true"></i></div>
+                  <div class="info-text">
+                    <span class="info-label">Address (Sample Demo Location)</span>
+                    <p class="info-val">Office No. 12, FC Road, Deccan Gymkhana,<br>Pune, Maharashtra 411004, India (Demo Location)</p>
+                    <span class="info-secondary"><i class="fa-solid fa-map-pin" aria-hidden="true"></i> Google Maps location pin will be linked upon physical venue launch.</span>
+                  </div>
+                </div>
+
+                <!-- Editable Phone Number -->
+                <div class="info-item">
+                  <div class="info-icon"><i class="fa-solid fa-phone" aria-hidden="true"></i></div>
+                  <div class="info-text">
+                    <span class="info-label">Phone Support (Editable Placeholder)</span>
+                    <p class="info-val"><a href="tel:+917972015757">+91 7972015757</a></p>
+                    <a href="tel:+917972015757" class="info-secondary"><i class="fa-solid fa-phone-volume" aria-hidden="true"></i> +91 7972015757 (Direct Support)</a>
+                  </div>
+                </div>
+
+                <!-- Editable Email Address -->
+                <div class="info-item">
+                  <div class="info-icon"><i class="fa-solid fa-envelope" aria-hidden="true"></i></div>
+                  <div class="info-text">
+                    <span class="info-label">Email Inquiries (Editable Placeholder)</span>
+                    <p class="info-val"><a href="mailto:shubham.v.kale3355@gmail.com">shubham.v.kale3355@gmail.com</a></p>
+                    <a href="mailto:shubham.v.kale3355@gmail.com" class="info-secondary"><i class="fa-regular fa-envelope" aria-hidden="true"></i> shubham.v.kale3355@gmail.com</a>
+                  </div>
+                </div>
+
+                <!-- Facility Operating Hours -->
+                <div class="info-item">
+                  <div class="info-icon"><i class="fa-regular fa-clock" aria-hidden="true"></i></div>
+                  <div class="info-text">
+                    <span class="info-label">Facility Hours</span>
+                    <p class="info-val">Monday – Friday: 5:00 AM – 11:00 PM</p>
+                    <p class="info-val">Saturday – Sunday: 6:00 AM – 10:00 PM</p>
+                    <span class="info-secondary">VIP Members: 24/7 Access Enabled</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Quick Perks Box -->
+              <div class="info-box-note">
+                <i class="fa-solid fa-square-parking" aria-hidden="true"></i>
+                <span>Complimentary 2-hour underground valet parking available for all active members.</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form Column -->
+          <div class="contact-form-panel reveal">
+            <div class="form-container" data-tilt="true">
+              <h3 class="form-heading">Send Us a Message</h3>
+              <p class="form-subheading">Fill out the form below to schedule your free day-pass and studio consultation.</p>
+
+              <form id="contact-form" class="contact-form" novalidate>
+                <!-- Form Feedback Banner (Client-side validation & demo notice) -->
+                <div id="form-feedback" class="form-feedback" role="alert" aria-live="assertive" style="display: none;"></div>
+
+                <!-- Name Input -->
+                <div class="form-group">
+                  <label for="contact-name" class="form-label">Full Name <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <i class="fa-regular fa-user input-icon" aria-hidden="true"></i>
+                    <input 
+                      type="text" 
+                      id="contact-name" 
+                      name="name" 
+                      class="form-control" 
+                      placeholder="e.g. Alex Morgan" 
+                      required
+                      autocomplete="name"
+                    >
+                  </div>
+                  <span class="error-msg" id="name-error"></span>
+                </div>
+
+                <!-- Email Input -->
+                <div class="form-group">
+                  <label for="contact-email" class="form-label">Email Address <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <i class="fa-regular fa-envelope input-icon" aria-hidden="true"></i>
+                    <input 
+                      type="email" 
+                      id="contact-email" 
+                      name="email" 
+                      class="form-control" 
+                      placeholder="e.g. shubham.v.kale3355@gmail.com" 
+                      required
+                      autocomplete="email"
+                    >
+                  </div>
+                  <span class="error-msg" id="email-error"></span>
+                </div>
+
+                <!-- Phone Input (Optional) -->
+                <div class="form-group">
+                  <label for="contact-phone" class="form-label">Phone Number (Optional)</label>
+                  <div class="input-wrapper">
+                    <i class="fa-solid fa-phone input-icon" aria-hidden="true"></i>
+                    <input 
+                      type="tel" 
+                      id="contact-phone" 
+                      name="phone" 
+                      class="form-control" 
+                      placeholder="e.g. +91 7972015757"
+                      autocomplete="tel"
+                    >
+                  </div>
+                  <span class="error-msg" id="phone-error"></span>
+                </div>
+
+                <!-- Program of Interest Select -->
+                <div class="form-group">
+                  <label for="contact-interest" class="form-label">Primary Interest</label>
+                  <div class="input-wrapper">
+                    <i class="fa-solid fa-dumbbell input-icon" aria-hidden="true"></i>
+                    <select id="contact-interest" name="interest" class="form-control select-control">
+                      <option value="General Tour & Day Pass">Complimentary Day Pass &amp; Tour</option>
+                      <option value="Strength Training">Strength &amp; Barbell Training</option>
+                      <option value="Weight Loss">Weight Loss &amp; Metabolic Conditioning</option>
+                      <option value="Muscle Building">Muscle Building &amp; Hypertrophy</option>
+                      <option value="Personal Training">1-on-1 Dedicated Personal Coaching</option>
+                      <option value="Cardio & Stamina">Cardio &amp; Endurance Training</option>
+                      <option value="Yoga & Mobility">Yoga, Mobility &amp; Recovery</option>
+                      <option value="Membership Membership Inquiry">Membership Plan Inquiry</option>
+                    </select>
+                  </div>
+                </div>
+
+                <!-- Message Input -->
+                <div class="form-group">
+                  <label for="contact-message" class="form-label">Your Message / Fitness Goals <span class="required">*</span></label>
+                  <div class="input-wrapper textarea-wrapper">
+                    <i class="fa-regular fa-comment-dots input-icon textarea-icon" aria-hidden="true"></i>
+                    <textarea 
+                      id="contact-message" 
+                      name="message" 
+                      rows="4" 
+                      class="form-control" 
+                      placeholder="Tell us about your current fitness level and target goals..." 
+                      required
+                    ></textarea>
+                  </div>
+                  <span class="error-msg" id="message-error"></span>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" id="contact-submit-btn" class="btn btn-primary btn-full">
+                  <span class="btn-text">Submit Inquiry</span>
+                  <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+                </button>
+
+                <!-- Direct Email Delivery Notice -->
+                <p class="form-disclaimer">
+                  <i class="fa-solid fa-shield-halved" aria-hidden="true"></i>
+                  <span>Your privacy is protected. Valid inquiries are transmitted directly to shubham.v.kale3355@gmail.com via secure email delivery service.</span>
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== SECTION I: FOOTER ==================== -->
+  <footer class="footer" id="footer" aria-label="Pulse Fitness Footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <!-- Col 1: Brand Info -->
+          <div class="footer-col footer-brand-col">
+            <a href="#home" class="footer-logo">
+              <span class="logo-icon"><i class="fa-solid fa-bolt-lightning" aria-hidden="true"></i></span>
+              <span class="logo-text">PULSE<span class="logo-accent">FITNESS</span></span>
+            </a>
+            <p class="footer-tagline">
+              The premier athletic performance facility. Precision biometrics, elite coaches, and relentless drive for extraordinary human transformation.
+            </p>
+            <div class="footer-socials" aria-label="Social Media Links">
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Follow Pulse Fitness on Instagram">
+                <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+              </a>
+              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Subscribe to Pulse Fitness on YouTube">
+                <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+              </a>
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Like Pulse Fitness on Facebook">
+                <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+              </a>
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Follow Pulse Fitness on X / Twitter">
+                <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Col 2: Quick Links -->
+          <div class="footer-col">
+            <h4 class="footer-heading">Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Our Studio</a></li>
+              <li><a href="#programs">Fitness Programs</a></li>
+              <li><a href="#memberships">Membership Tiers</a></li>
+              <li><a href="#trainers">Certified Trainers</a></li>
+              <li><a href="#gallery">Studio Photo Gallery</a></li>
+              <li><a href="#testimonials">Member Reviews</a></li>
+              <li><a href="#contact">Contact &amp; Location</a></li>
+            </ul>
+          </div>
+
+          <!-- Col 3: Programs -->
+          <div class="footer-col">
+            <h4 class="footer-heading">Programs</h4>
+            <ul class="footer-links">
+              <li><a href="#programs">Strength &amp; Barbell</a></li>
+              <li><a href="#programs">Metabolic Weight Loss</a></li>
+              <li><a href="#programs">Hypertrophy &amp; Muscle</a></li>
+              <li><a href="#programs">1-on-1 Personal Training</a></li>
+              <li><a href="#programs">Cardio &amp; VO2 Conditioning</a></li>
+              <li><a href="#programs">Yoga &amp; Mobility Flow</a></li>
+              <li><a href="#memberships">Corporate Wellness</a></li>
+            </ul>
+          </div>
+
+          <!-- Col 4: Contact & Newsletter -->
+          <div class="footer-col">
+            <h4 class="footer-heading">Join The Newsletter</h4>
+            <p class="footer-subtext">Receive weekly training protocols, nutrition blueprints, and exclusive guest passes.</p>
+            <form id="newsletter-form" class="newsletter-form" novalidate>
+              <div class="newsletter-input-group">
+                <input 
+                  type="email" 
+                  id="newsletter-email" 
+                  class="newsletter-input" 
+                  placeholder="Enter your email" 
+                  required
+                  aria-label="Newsletter email input"
+                >
+                <button type="submit" class="newsletter-btn" aria-label="Subscribe to newsletter">
+                  <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </button>
+              </div>
+              <span id="newsletter-feedback" class="newsletter-feedback" role="alert"></span>
+            </form>
+            <div class="footer-contact-summary">
+              <p><i class="fa-solid fa-phone" aria-hidden="true"></i> <a href="tel:+917972015757">+91 7972015757</a></p>
+              <p><i class="fa-solid fa-envelope" aria-hidden="true"></i> <a href="mailto:shubham.v.kale3355@gmail.com">shubham.v.kale3355@gmail.com</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Bottom Legal -->
+    <div class="footer-bottom">
+      <div class="container footer-bottom-container">
+        <p class="copyright-text">
+          &copy; <span id="current-year">2026</span> PULSE FITNESS STUDIO. All Rights Reserved. Built for ApnoAI Final Project.
+        </p>
+        <div class="footer-bottom-links">
+          <a href="#home">Privacy Policy</a>
+          <span class="sep">•</span>
+          <a href="#home">Terms of Service</a>
+          <span class="sep">•</span>
+          <a href="#home">Health Disclosure</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== FEATURE 3: FLOATING WHATSAPP BUTTON ==================== -->
+  <!-- 
+    Editable Phone Placeholder: WhatsApp phone number: +91 7972015757 (wa.me/917972015757).
+  -->
+  <aside class="whatsapp-float-container" aria-label="WhatsApp Direct Support">
+    <a 
+      href="https://wa.me/917972015757?text=Hello%20Pulse%20Fitness!%20I'd%20like%20to%20learn%20more%20about%20your%20memberships%20and%20training%20programs." 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      class="whatsapp-float-btn" 
+      id="whatsapp-btn"
+      aria-label="Chat With Us on WhatsApp (+91 7972015757)"
+    >
+      <span class="whatsapp-pulse-ring"></span>
+      <i class="fa-brands fa-whatsapp whatsapp-icon" aria-hidden="true"></i>
+      <span class="whatsapp-tooltip">Chat With Us</span>
+    </a>
+  </aside>
+
+  <!-- ==================== FEATURE 2: LIGHTBOX MODAL ==================== -->
+  <div class="lightbox-modal" id="lightbox-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Image gallery preview">
+    <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
+    <div class="lightbox-content">
+      <!-- Lightbox Close Button -->
+      <button class="lightbox-close" id="lightbox-close" aria-label="Close lightbox preview (Press Escape)">
+        <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+      </button>
+
+      <!-- Prev / Next Navigation -->
+      <button class="lightbox-nav-btn lightbox-prev" id="lightbox-prev" aria-label="View previous photo (Left arrow key)">
+        <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+      </button>
+
+      <div class="lightbox-image-wrapper">
+        <img src="" alt="" class="lightbox-img" id="lightbox-img">
+        <div class="lightbox-caption">
+          <span class="lightbox-title" id="lightbox-title"></span>
+          <span class="lightbox-counter" id="lightbox-counter"></span>
+        </div>
+      </div>
+
+      <button class="lightbox-nav-btn lightbox-next" id="lightbox-next" aria-label="View next photo (Right arrow key)">
+        <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- ==================== INTERACTIVE PROGRAM / MEMBERSHIP MODAL ==================== -->
+  <div class="info-modal" id="info-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Program or Membership Details">
+    <div class="info-modal-backdrop" id="info-modal-backdrop"></div>
+    <div class="info-modal-dialog">
+      <button class="info-modal-close" id="info-modal-close" aria-label="Close modal window">
+        <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+      </button>
+      <div class="info-modal-body" id="info-modal-body">
+        <!-- Content injected dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Three.js 3D Engine Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+  <!-- EmailJS Official Browser SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js" defer></script>
+</body>
+</html>
