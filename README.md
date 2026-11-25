@@ -6,19 +6,19 @@
 
 ## 🌐 Live Website
 
-- **Live Demo URL:** `https://your-pulse-fitness-app.vercel.app` *(Replace with your actual Vercel deployment URL)*
+- **Live Website URL:** `https://your-pulse-fitness-app.vercel.app` *(Replace with your actual Vercel deployment URL)*
 
 ---
 
 ## 📋 Project Overview
 
-**PULSE FITNESS** is a demo fitness center and athletic training studio web application crafted to deliver an engaging, cinematic, and interactive user experience. Designed with a striking neon green, deep black, and crisp white aesthetic, the website highlights modern web design standards—combining smooth scroll interactions, real-time 3D equipment rendering, dark/light theme switching, and comprehensive fitness business features.
+**PULSE FITNESS** is a professional fitness center and athletic training studio web application crafted to deliver an engaging, cinematic, and interactive user experience. Designed with a striking neon green, deep black, and crisp white aesthetic, the website highlights modern web design standards—combining smooth scroll interactions, real-time 3D equipment rendering, dark/light theme switching, and comprehensive fitness business features.
 
 ---
 
 ## 🎯 Project Purpose
 
-This project was built as part of the **ApnoAI "Project First Client — Real Business Website"** task. The objective was to design and engineer a production-ready, client-grade website tailored for a fitness business, demonstrating excellence in responsive layout architecture, modern UI/UX design, interactive frontend engineering, and clean code standards.
+This project was built as part of the **ApnoAI "Project First Client — Real Business Website"** task. The objective was to design and engineer a production-ready, client-grade website tailored for a fitness business, delivering excellence in responsive layout architecture, modern UI/UX design, interactive frontend engineering, and clean code standards.
 
 ---
 
@@ -66,12 +66,6 @@ To run this project locally on your machine:
      ```bash
      npx serve .
      ```
-
----
-
-## ⚠️ Demo Disclaimer
-
-**PULSE FITNESS** is a demo project created solely for demonstration and educational purposes as part of the ApnoAI Project First Client task. All displayed business details, addresses, phone numbers, statistics, trainer profiles, testimonials, and other illustrative information may not represent a real commercial business, operating fitness facility, or certified individual.
 
 ---
 
