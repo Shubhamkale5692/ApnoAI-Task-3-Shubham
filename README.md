@@ -6,7 +6,7 @@
 
 ## 🌐 Live Website
 
-- **Live Website URL:** `https://your-pulse-fitness-app.vercel.app` *(Replace with your actual Vercel deployment URL)*
+- **Live Website:** [https://pulse-fitness-puce.vercel.app/](https://pulse-fitness-puce.vercel.app/)
 
 ---
 
